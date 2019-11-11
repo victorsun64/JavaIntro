@@ -10,6 +10,7 @@ public class SchleifenBasics {
 		
 		//
 		System.out.println("-----");
+		//
 		int j =1;
 		for (;j<10;) {
 			System.out.println(j);
