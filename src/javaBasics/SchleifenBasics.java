@@ -14,6 +14,11 @@ public class SchleifenBasics {
 		for (;j<10;) {
 			System.out.println(j);
 			j = j +1;
+			
+		// endlosschleife
+		for (;3<4;) {
+			System.out.println("HuiHui");
+		}
 		}
 		
 	}
