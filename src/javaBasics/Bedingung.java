@@ -46,7 +46,7 @@ public class Bedingung {
 			System.out.println("hansi");
 		}
 		// Klammern
-		if (3<1)
+		if (0<1)
 			System.out.println("juhu");
 			System.out.println("abc");
 	}
