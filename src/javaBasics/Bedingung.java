@@ -3,8 +3,8 @@ package javaBasics;
 public class Bedingung {
 
 	public static void main(String[] args) {
-		// 
-		if (1<3) {
+		//
+		if (1 < 3) {
 			System.out.println("1 ist kleiner als 3");
 		}
 		//
@@ -26,10 +26,10 @@ public class Bedingung {
 			System.out.println(zahlA + " ist nicht kleiner als " + zahlB);
 		}
 		// abfrage auf gleich ==
-		if (zahlA == zahlB) {	
+		if (zahlA == zahlB) {
 		}
 		// nicht gleich
-		if (zahlA != zahlB) {	
+		if (zahlA != zahlB) {
 		}
 		//
 		if ("hans" == "hans") {
@@ -46,9 +46,15 @@ public class Bedingung {
 			System.out.println("hansi");
 		}
 		// Klammern
-		if (0<1)
+		if (0 < 1) {
 			System.out.println("juhu");
-			System.out.println("abc");
+		}
+		System.out.println("abc");
+		//
+		System.out.println(9 % 2);
+//		if (9 % 3) {
+//			System.out.println("Rest ist 0");
+//		}
 	}
 
 }
