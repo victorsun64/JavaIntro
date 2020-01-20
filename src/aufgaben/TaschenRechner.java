@@ -6,14 +6,14 @@ public class TaschenRechner {
 
 private static Scanner scanner;
 	
-	public static void main(String[] args) {
-		long zahl1,zahl2,ergebnis;
+public static void main(String[] args) {
+		float zahl1,zahl2,ergebnis;
 		String operator;
 		scanner = new Scanner(System.in);
 		System.out.println("Geben Sie bitte die erste Zahl ein:");
-		zahl1=scanner.nextLong();
+		zahl1=scanner.nextFloat();
 		System.out.println("Geben Sie bitte die zweite Zahl ein:");
-		zahl2=scanner.nextLong();
+		zahl2=scanner.nextFloat();
 		System.out.println("Geben Sie bitte den Operator ein:");
 		operator=scanner.next();
 		if ("+".equals(operator))
