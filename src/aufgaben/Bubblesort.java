@@ -1,7 +1,5 @@
 package aufgaben;
 
-import java.util.ArrayList;
-
 public class Bubblesort {
 
 	public static void main(String[] args) {
