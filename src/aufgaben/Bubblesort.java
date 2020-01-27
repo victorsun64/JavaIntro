@@ -11,7 +11,7 @@ public class Bubblesort {
 					zahlen[i] = t;
 					zahlen[i + 1] = zahlen[i];
 					t = zahlen[i + 1];
-				}
+	     		}
 			}
 		}System.out.println(zahlen);
 	}
