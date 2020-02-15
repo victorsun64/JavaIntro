@@ -3,16 +3,21 @@ package aufgaben;
 public class Bubblesort {
 
 	public static void main(String[] args) {
-		int i, n, t = 0;
 		int[] zahlen = { 9, 1, 5, 7, 4, 6, 3, 2, 8, 0 };
-		for (i = zahlen.length; i > 1; --i) {
-			for (n = 0; i < n - 1; n++) {
-				if (zahlen[i] > zahlen[i + 1]) {
-					zahlen[i] = t;
-					zahlen[i + 1] = zahlen[i];
-					t = zahlen[i + 1];
-	     		}
+		int n = zahlen.length;
+		int t = 0;
+		int i, j;
+		for (i = 1; i < n; i++) {
+			for (j = 0; j < (n - i); j++) {
+				if (zahlen[j] > zahlen[j + 1]) {
+					t = zahlen[j];
+					zahlen[j] = zahlen[j + 1];
+					zahlen[j + 1] = t;
+				}
 			}
-		}System.out.println(zahlen);
+		}
+		for (i = 0; i < zahlen.length; i++) {
+			System.out.print(zahlen[i] + " ");
+		}
 	}
 }
