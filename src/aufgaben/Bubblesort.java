@@ -8,7 +8,7 @@ public class Bubblesort {
 		int t = 0;
 		int i, j;
 		for (i = 1; i < n; i++) {
-			for (j = 0; j < (n-i); j++) {
+			for (j = 0; j < (n - i); j++) {
 				if (zahlen[j] > zahlen[j + 1]) {
 					t = zahlen[j];
 					zahlen[j] = zahlen[j + 1];
