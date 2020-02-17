@@ -14,9 +14,11 @@ public class DoWhileSchleife {
 
 		scanner = new Scanner(System.in);
 		String line = "";
-		while (!line.equals("z")) {
+		while (!line.equals("z")) 
+		{if(!line.equals("z"))
 			line = scanner.nextLine();
 			linecontent.add(line);
+			if(line.equals("z")) {linecontent.remove(linecontent.size()-1);}
 		}
 		int n = linecontent.size();
 		for (i = 1; i < n; i++) {
