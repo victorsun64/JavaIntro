@@ -22,11 +22,12 @@ public class Namensort {
 			for (j = 0; j < (n - i); j++) {
 				if (klasse.get(j).compareToIgnoreCase(klasse.get(j + 1)) > 0) {
 					t = klasse.get(j);
-					klasse.set(j,klasse.get(j+1));
-					klasse.set(j+1,t);
+					klasse.set(j, klasse.get(j + 1));
+					klasse.set(j + 1, t);
 				}
 			}
-		}System.out.println(klasse);
+		}
+		System.out.println(klasse);
 	}
 
 }
